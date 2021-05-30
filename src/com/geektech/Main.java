@@ -7,7 +7,8 @@ public class Main {
 
         Shelter romashka = new Shelter("Romashka", "Ibraimova 90");
 
-        Dog sharik = new Dog(romashka);
+        Dog sharik = new Dog();
+        sharik.setShelter(romashka);
         Dog layka = new Dog("Layka ", "Чихуахуа", Color.BLACK, romashka);
         Dog barsik = new Dog("Barsik ", "Домашняя ", Color.BROWN, romashka,
                 new String[]{"Стоять", "Сидеть"});

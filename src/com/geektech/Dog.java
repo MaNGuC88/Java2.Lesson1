@@ -8,8 +8,7 @@ public final class Dog extends Pet {
     private String breed;
     private String[] commands;
 
-    public Dog(Shelter shelter){
-        super.setShelter(shelter);
+    public Dog(){
     }
 
     public Dog(String name, String breed,
